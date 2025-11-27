@@ -1,12 +1,21 @@
-# Customer Churn Analysis
+🧑‍💼 Customer Churn Analysis
 
-Author: Ayush Saini  
-Tools: Python, Pandas, NumPy, Matplotlib, Seaborn
+This project explores telecom customer data to understand why customers leave (churn).
+I analyzed contract types, service usage, payment methods, and customer behavior to identify patterns that lead to churn.
+The goal is to help the business understand what drives customer loss and how they can reduce it.
 
-## Overview
-This project analyzes the Telco Customer Churn dataset to understand why customers leave a telecom company. The goal is to identify churn patterns and provide recommendations that can help reduce customer attrition.
+📌 What This Project Covers
+Loaded and cleaned the churn dataset
+Converted important columns to correct data types
+Explored churn distribution
+Analyzed monthly charges, tenure, and contract types
+Boxplots for key features
+Correlation heatmap
+Business insights and recommendations
+Tools used: Pandas, NumPy, Matplotlib, Seaborn
 
-## Repository Structure
+📂 Folder Structure
+
 Customer-Churn-Analysis/
 │── data/
 │ └── Telco_Customer_Churn.csv
@@ -20,42 +29,27 @@ Customer-Churn-Analysis/
 │ └── correlation_heatmap.png
 │── README.md
 
-markdown
-Copy code
+📊 Key Insights
 
-## Data Cleaning
-- Converted "TotalCharges" to numeric  
-- Removed rows with missing TotalCharges  
-- Dropped "customerID"  
-- Converted "Churn" to binary (Yes = 1, No = 0)
+Month-to-month contract customers churn the most.
+Higher monthly charges lead to higher churn.
+New customers (0–6 months tenure) leave more often.
+Electronic check users show the highest churn rate.
+Fiber Optic internet users churn more than DSL customers.
+Senior citizens have a higher churn percentage.
 
-## Visuals
-### Churn Count
-![Churn Count](images/churn_count.png)
+💡 Recommendations
 
-### Monthly Charges Distribution
-![Monthly Charges Distribution](images/monthly_charges_dist.png)
+Provide better onboarding for new customers.
+Encourage customers to move to long-term contracts.
+Improve experience for Fiber Optic users.
+Offer better alternatives to electronic check payments.
+Promote services like Tech Support and Online Security.
 
-### Monthly Charges vs Churn
-![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
+🚀 How to Run This Project
 
-### Tenure vs Churn
-![Tenure vs Churn](images/tenure_vs_churn.png)
-
-### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-## Insights
-- Month-to-month contract customers churn the most.  
-- Higher monthly charges correlate with higher churn.  
-- New customers (0–6 months tenure) churn more frequently.  
-- Electronic Check users show the highest churn rate.  
-- Fiber Optic customers churn more than DSL customers.  
-- Senior citizens churn more compared to younger customers.
-
-## Recommendations
-- Offer onboarding benefits to new customers.  
-- Encourage yearly/long-term contracts.  
-- Improve Fiber Optic service quality.  
-- Promote Tech Support and Online Security services.  
-- Enhance payment experience for Electronic Check users.
+Download or clone this repository.
+Open the notebooks folder.
+Run the notebook: churn_analysis.ipynb
+Make sure the churn CSV file is inside the data folder.
+Run all cells to reproduce the analysis and charts.
