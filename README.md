@@ -1,4 +1,4 @@
-## 📉 Customer Churn Analysis
+# 📉 Customer Churn Analysis
 
 This project provides a clear and simple analysis of telecom customer churn.
 I explored contract types, monthly charges, tenure, service usage, and payment methods to understand why customers leave.
