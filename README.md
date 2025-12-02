@@ -69,6 +69,6 @@ Run all cells to reproduce the analysis and charts.
 
 ## 🙋‍♂️ Author
 
-Ayush Saini
-Aspiring Data Analyst
-📧 Email: ayushsaini8535@gmail.com
+Ayush Saini  
+Aspiring Data Analyst  
+📧 Email: ayushsaini8535@gmail.com  
