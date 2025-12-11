@@ -60,10 +60,11 @@ Customer-Churn-Analysis/
 
 ## 🚀 How to Run This Project
 
-Download or clone the repository.
-Ensure Telco_Customer_Churn.csv is in the data folder.
-Open the notebook in the notebooks folder.
-Run all cells to reproduce the analysis and charts.
+1. Clone the repository.
+2. Open /notebooks/churn_analysis.ipynb in Jupyter Notebook.
+3. Install required libraries:
+`pip install pandas numpy matplotlib seaborn`
+4. Run all cells to explore churn insights and visualizations.
 
 ---
 
