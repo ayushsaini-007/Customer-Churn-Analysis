@@ -32,7 +32,7 @@ Customer-Churn-Analysis/
 │   └── correlation_heatmap.png  
 │── notebooks/  
 │   └── churn_analysis.ipynb  
-│── README.md  
+└──  README.md  
 
 ---
 
